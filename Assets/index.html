@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Send Data to Unity</title>
+</head>
+<body>
+    <input type="text" id="inputField" placeholder="Enter text here">
+    <button onclick="sendData()">Send</button>
+    <button onclick="sendData('1')">Send 1</button>
+    <button onclick="sendData('2')">Send 2</button>
+    <button onclick="sendData('3')">Send 3</button>
+    <button onclick="sendData('4')">Send 4</button>
+
+    <script>
+        function sendData(data = null) {
+            var xhr = new XMLHttpRequest();
+            var url = "/receiveData"; // 确保URL正确
+            var inputField = document.getElementById("inputField");
+            var jsonData = data !== null ? data : inputField.value;
+            var json = JSON.stringify({ "data": jsonData });
+
+            xhr.open("POST", url, true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200) {
+                        console.log(xhr.responseText);
+                    } else {
+                        console.error("Error sending data: " + xhr.statusText);
+                    }
+                }
+            };
+
+            xhr.send(json);
+        }
+    </script>
+</body>
+</html>
