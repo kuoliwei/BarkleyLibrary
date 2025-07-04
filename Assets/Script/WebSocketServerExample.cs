@@ -62,11 +62,19 @@ public class Chat : WebSocketBehavior
         {
             Send($"Echo: {e.Data}");
         }
-        ReceivedData.stringForTest = e.Data;
-        ReceivedData.bookData = JsonUtility.FromJson<BookData>(e.Data);
-        ReceivedData.isReceiveData = true;
-        Debug.Log(ReceivedData.bookData.book.index);
-        Debug.Log(ReceivedData.bookData.person.index);
+        //{
+        //    ReceivedData.stringForTest = e.Data;
+        //    ReceivedData.bookData = JsonUtility.FromJson<BookData>(e.Data);
+        //    ReceivedData.isReceiveData = true;
+        //    Debug.Log(ReceivedData.bookData.book.index);
+        //    Debug.Log(ReceivedData.bookData.person.index);
+        //}   //  v1
+
+        {
+            BookAndPersonData bookAndPersonData = JsonUtility.FromJson<BookAndPersonData>(e.Data);
+            Debug.Log(bookAndPersonData.book);
+            Debug.Log(bookAndPersonData.person);
+        }   //  v2
     }
 
     protected override void OnClose(CloseEventArgs e)

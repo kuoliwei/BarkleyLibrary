@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e912cbe49b3c4d87c754a19672847, type: 3}
+  m_Name: "\u7E6A\u672C\u4E00B 6"
+  m_EditorClassIdentifier: 
+  text: "\u9019\u662F\u570B\u738B\u70BA\u4E86\u6700\u611B\u7684\u7687\u540E\u84CB\u7684\uFF0C\u8D85\u6D6A\u6F2B\u7684\u5C0D\u4E0D\u5C0D\uFF5E\r\n"
+  audioClip: {fileID: 8300000, guid: e2e9698084ce56240a7705a0eb857fda, type: 3}
