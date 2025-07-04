@@ -42,9 +42,10 @@ public class SayByeState : ICatState
         var routine = fsm.Presentation.PlayPerformGroup(group);
         fsm.SetPlayPerformGroupRoutine(routine);
         yield return fsm.RunPlayPerformGroupCoroutine();
+        Debug.Log("SayByeState finish");
         // 若日後要 reset，可在這裡加 delay + return to GreetingState
-        // yield return new WaitForSeconds(3f);
-        // fsm.TransitionTo(new GreetingState());
+        yield return new WaitForSeconds(3f);
+        fsm.switchToGreetingState();
     }
 }
 

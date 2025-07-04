@@ -47,9 +47,8 @@ public class AskToPickBookState : ICatState
 
         var routine = fsm.Presentation.PlayPerformGroup(group);
         fsm.SetPlayPerformGroupRoutine(routine);
-        Debug.Log("Start AskToPickBookState");
         yield return fsm.RunPlayPerformGroupCoroutine();
-
+        Debug.Log("AskToPickBookState finish");
         // 播完後就靜候事件觸發
     }
 }

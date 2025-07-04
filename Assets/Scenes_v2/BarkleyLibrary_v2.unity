@@ -693,6 +693,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfd6c9a1df24a26449d4a3785e63eedf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  port: 8888
+  path: Chat
 --- !u!114 &634199627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -865,8 +867,8 @@ Transform:
   - {fileID: 794680269}
   - {fileID: 476764833}
   - {fileID: 576937128}
-  - {fileID: 2053478120}
   - {fileID: 634199625}
+  - {fileID: 2053478120}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1122291200
@@ -1751,6 +1753,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f90179aecef59344881e00379e27cf0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ip: 127.0.0.1
+  port: 8888
+  path: Chat
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

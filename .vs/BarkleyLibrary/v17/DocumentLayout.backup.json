@@ -1,72 +1,68 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\UnityProjects\\BarkleyLibrary\\",
+  "WorkspaceRootPath": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityprojects\\barkleylibrary\\assets\\script\\texthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\texthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\websocketeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityprojects\\barkleylibrary\\assets\\scripts_v2\\catstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\greetingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\greetingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\catstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\websocketserverforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\websocketserverforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketserverforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\asktopickbookstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|c:\\users\\guo li-wei\\documents\\unity projects\\barkleylibrary\\assets\\scripts_v2\\websocketeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\catstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\asktopickbookstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\asktopickbookstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\greetingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\greetingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\catstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\audiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\performdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\performdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\performdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\catpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\catpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\Gen5CarProject_v2\\Assets\\CalibrationData\\CalibrationData.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\branchingstorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\branchingstorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\branchingstorydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProjects\\BarkleyLibrary\\assets\\scripts_v2\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\assets\\scripts_v2\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\textcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -77,93 +73,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TextHandler.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Script\\TextHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\TextHandler.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Script\\TextHandler.cs",
-              "RelativeToolTip": "Assets\\Script\\TextHandler.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAcwD4AAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "WebSocketClientForBarkleyLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T10:52:52.627Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T09:07:56.671Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WebSocketClientForBarkleyLibrary.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
-              "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T09:07:56.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "WebSocketEventHandler.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketEventHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketEventHandler.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketEventHandler.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketEventHandler.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketEventHandler.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCEAAABkAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwC4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T06:17:50.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "WebSocketServerForBarkleyLibrary.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
+              "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowBIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T06:00:32.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CatStateMachine.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatStateMachine.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\CatStateMachine.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatStateMachine.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatStateMachine.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\CatStateMachine.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA1wBsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvzsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T02:46:58.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ReadStoryState.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\ReadStoryState.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\ReadStoryState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\ReadStoryState.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\ReadStoryState.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\ReadStoryState.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\ReadStoryState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T02:48:49.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T02:48:49.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AskToPickBookState.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\AskToPickBookState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\AskToPickBookState.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\AskToPickBookState.cs",
+              "RelativeToolTip": "Assets\\Scripts_v2\\AskToPickBookState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:47:53.967Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "GreetingState.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\GreetingState.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\GreetingState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\GreetingState.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\GreetingState.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\GreetingState.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\GreetingState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T02:47:20.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T02:47:20.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CatState.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatState.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\CatState.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatState.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatState.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\CatState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,23 +176,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "WebSocketServerForBarkleyLibrary.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
-              "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketServerForBarkleyLibrary.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAQwCsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T06:00:32.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "SayByeState.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\SayByeState.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\SayByeState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\SayByeState.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\SayByeState.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\SayByeState.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\SayByeState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,23 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AskToPickBookState.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\AskToPickBookState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\AskToPickBookState.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\AskToPickBookState.cs",
-              "RelativeToolTip": "Assets\\Scripts_v2\\AskToPickBookState.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T02:47:53.967Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "AudioController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\AudioController.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\AudioController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\AudioController.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\AudioController.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\AudioController.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\AudioController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,11 +200,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "CatPresentationController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatPresentationController.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatPresentationController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\CatPresentationController.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatPresentationController.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\CatPresentationController.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\CatPresentationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,24 +212,21 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "CalibrationData.json",
               "DocumentMoniker": "D:\\UnityProjects\\Gen5CarProject_v2\\Assets\\CalibrationData\\CalibrationData.json",
-              "RelativeDocumentMoniker": "..\\Gen5CarProject_v2\\Assets\\CalibrationData\\CalibrationData.json",
               "ToolTip": "D:\\UnityProjects\\Gen5CarProject_v2\\Assets\\CalibrationData\\CalibrationData.json",
-              "RelativeToolTip": "..\\Gen5CarProject_v2\\Assets\\CalibrationData\\CalibrationData.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-03T06:43:43.827Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T06:43:43.827Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "PerformData.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\PerformData.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\PerformData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\PerformData.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\PerformData.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\PerformData.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\PerformData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -256,11 +234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "BranchingStoryData.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\BranchingStoryData.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\BranchingStoryData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\BranchingStoryData.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\BranchingStoryData.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\BranchingStoryData.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\BranchingStoryData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -268,11 +246,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "ImageController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\ImageController.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\ImageController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\ImageController.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\ImageController.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\ImageController.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\ImageController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAADwvxIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -280,11 +258,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "TextController.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\TextController.cs",
+              "DocumentMoniker": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\TextController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\TextController.cs",
-              "ToolTip": "D:\\UnityProjects\\BarkleyLibrary\\Assets\\Scripts_v2\\TextController.cs",
+              "ToolTip": "C:\\Users\\Guo Li-Wei\\Documents\\Unity Projects\\BarkleyLibrary\\Assets\\Scripts_v2\\TextController.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\TextController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

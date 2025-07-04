@@ -9,15 +9,17 @@ using System;
 
 public class WebSocketServerForBarkleyLibrary : MonoBehaviour
 {
+    [SerializeField] int port;
+    [SerializeField] string path;
     private WebSocketServer wss;
 
     void Awake()
     {
         // create WebSocket Server, Listen on port 7777
-        wss = new WebSocketServer(7777);
-        wss.AddWebSocketService<ChatForBarkleyLibrary>("/Chat");
+        wss = new WebSocketServer(port);
+        wss.AddWebSocketService<ChatForBarkleyLibrary>($"/{path}");
         wss.Start();
-        ////Debug.Log("WebSocket server started on ws://localhost:7777/Chat");
+        Debug.Log($"WebSocket server started on ws://localhost:{port}/{path}");
         StartCoroutine(ServerStartNote());
     }
 

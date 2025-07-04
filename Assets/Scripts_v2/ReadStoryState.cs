@@ -70,6 +70,8 @@ public class ReadStoryState : ICatState
             yield return fsm.RunPlayPerformGroupCoroutine();
         }
         yield return new WaitForSeconds(1f);
+
+        Debug.Log("ReadStoryState finish");
         // ¬G¨Æ¼½©ñ§¹ ¡÷ ¤Á´«ª¬ºA
         fsm.switchToSayByeState();
     }

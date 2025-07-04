@@ -6,6 +6,9 @@ using System.Threading;
 
 public class WebSocketClientForBarkleyLibrary : MonoBehaviour
 {
+    [SerializeField] string ip;
+    [SerializeField] int port;
+    [SerializeField] string path;
     private WebSocket ws;
     private Timer pongTimer;
     private bool isConnected;
@@ -17,7 +20,7 @@ public class WebSocketClientForBarkleyLibrary : MonoBehaviour
             person = "null",
             book = "null"
         };
-        ws = new WebSocket("ws://localhost:7777/Chat");
+        ws = new WebSocket($"ws://{ip}:{port}/{path}");
 
         ws.OnOpen += (sender, e) =>
         {
@@ -98,19 +101,19 @@ public class WebSocketClientForBarkleyLibrary : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            data.person = data.person == "null" ? "sit-down" : "null";
+            data.person = data.person != "sit-down" ? "sit-down" : "null";
         }
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            data.book = data.book == "null" ? "0" : "null";
+            data.book = data.book != "0" ? "0" : "null";
         }
         if (Input.GetKeyDown(KeyCode.Alpha2))
         {
-            data.book = data.book == "null" ? "1" : "null";
+            data.book = data.book != "1" ? "1" : "null";
         }
         if (Input.GetKeyDown(KeyCode.Alpha3))
         {
-            data.book = data.book == "null" ? "2" : "null";
+            data.book = data.book != "2" ? "2" : "null";
         }
         ws.Send(JsonUtility.ToJson(data));
     }

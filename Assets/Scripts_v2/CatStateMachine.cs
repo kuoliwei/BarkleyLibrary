@@ -55,42 +55,24 @@ public class CatStateMachine : MonoBehaviour
     }
     public void switchToGreetingState()
     {
-        if (CurrentCatState != CatState.GreetingState)
-        {
-            Debug.Log(CurrentCatState + "," + currentCatState);
-            currentCatState = CatState.GreetingState;
-            TransitionTo(new GreetingState());
-
-            Debug.Log(CurrentCatState + "," + currentCatState);
-
-        }
+        Debug.Log(CurrentCatState + "," + currentCatState);
+        currentCatState = CatState.GreetingState;
+        TransitionTo(new GreetingState());
     }
     public void switchToAskToPickBookState()
     {
-        if (CurrentCatState != CatState.AskToPickBookState)
-        {
-            currentCatState = CatState.AskToPickBookState;
-            TransitionTo(new AskToPickBookState());
-
-        }
+        currentCatState = CatState.AskToPickBookState;
+        TransitionTo(new AskToPickBookState());
     }
     public void switchToReadStoryState(int bookIndex)
     {
-        if (CurrentCatState != CatState.ReadStoryState)
-        {
-            currentCatState = CatState.ReadStoryState;
-            TransitionTo(new ReadStoryState(bookIndex));
-
-        }
+        currentCatState = CatState.ReadStoryState;
+        TransitionTo(new ReadStoryState(bookIndex));
     }
     public void switchToSayByeState()
     {
-        if (CurrentCatState != CatState.SayByeState)
-        {
-            currentCatState = CatState.SayByeState;
-            TransitionTo(new SayByeState());
-
-        }
+        currentCatState = CatState.SayByeState;
+        TransitionTo(new SayByeState());
     }
     public void HandleEvent(CatEvent catEvent)
     {

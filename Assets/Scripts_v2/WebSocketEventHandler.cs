@@ -9,6 +9,7 @@ public class WebSocketEventHandler : MonoBehaviour
     [SerializeField] CatStateMachine catStateMachine;
     [SerializeField] Text jsonText;
     BookAndPersonData bookAndPersonData;
+    BookAndPersonData currentBookAndPersonData;
     void OnEnable()
     {
         ChatForBarkleyLibrary.OnWebSocketMessageReceived += HandleWebSocketMessage;
@@ -22,38 +23,52 @@ public class WebSocketEventHandler : MonoBehaviour
     private void Update()
     {
         jsonText.text = $"book:{bookAndPersonData.book}, person:{bookAndPersonData.person}";
-        if (bookAndPersonData.person == "null")
+
+        TriggerState();
+    }
+    void TriggerState()
+    {
+        if (bookAndPersonData.person == "null" && bookAndPersonData.person != currentBookAndPersonData.person)
         {
             if (catStateMachine.CurrentCatState == CatState.ReadStoryState)
             {
                 // 中途離席 → 馬上說再見
                 catStateMachine.switchToSayByeState();
             }
-            else if (catStateMachine.CurrentCatState != CatState.GreetingState)
+            else if (catStateMachine.CurrentCatState != CatState.GreetingState && catStateMachine.CurrentCatState != CatState.SayByeState)
             {
                 //Debug.Log(catStateMachine.CurrentCatState);
-                Debug.Log("重覆與民眾打招呼");
+                //Debug.Log("重覆與民眾打招呼");
                 catStateMachine.switchToGreetingState();
             }
+            currentBookAndPersonData = bookAndPersonData;
             return;
         }
+
         if (bookAndPersonData.person == "sit-down")
         {
-            if (bookAndPersonData.book == "null")
+            if (bookAndPersonData.person != currentBookAndPersonData.person)
             {
+                Debug.Log($"{bookAndPersonData.person},{currentBookAndPersonData.person}");
+                Debug.Log($"{bookAndPersonData.book},{currentBookAndPersonData.book}");
                 if (catStateMachine.CurrentCatState != CatState.AskToPickBookState)
                 {
                     //Debug.Log(catStateMachine.CurrentCatState);
-                    Debug.Log("民眾已入座，開始介紹書本");
+                    //Debug.Log("民眾已入座，開始介紹書本");
                     catStateMachine.switchToAskToPickBookState();
                 }
+                currentBookAndPersonData = bookAndPersonData;
                 return;
             }
-            else
+            else if(bookAndPersonData.book != currentBookAndPersonData.book)
             {
+                Debug.Log($"{bookAndPersonData.person},{currentBookAndPersonData.person}");
+                Debug.Log($"{bookAndPersonData.book},{currentBookAndPersonData.book}");
                 // 嘗試解析 book 為整數
                 if (!int.TryParse(bookAndPersonData.book, out int result) || result < 0 || result > 2)
                 {
+                    if(bookAndPersonData.book == "null")
+                        currentBookAndPersonData = bookAndPersonData;
                     Debug.LogWarning($"[WebSocket] book 非法數字：{bookAndPersonData.book}");
                     return;
                 }
@@ -70,6 +85,7 @@ public class WebSocketEventHandler : MonoBehaviour
                         catStateMachine.switchToReadStoryState(result);
                     }
                 }
+                currentBookAndPersonData = bookAndPersonData;
                 return;
             }
         }
