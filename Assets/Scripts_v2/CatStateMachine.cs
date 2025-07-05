@@ -20,7 +20,7 @@ public class CatStateMachine : MonoBehaviour
     public void Start()
     {
         //currentCatState = CatState.SayByeState;
-        //TransitionTo(new GreetingState());
+        TransitionTo(new GreetingState());
         //TransitionTo(new AskToPickBookState());
         //TransitionTo(new ReadStoryState(1));
         //TransitionTo(new SayByeState());
