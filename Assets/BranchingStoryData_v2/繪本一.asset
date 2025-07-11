@@ -14,8 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyId: PictureBookOne
   bookImage: {fileID: 21300000, guid: 575ea2c0d47953d49b23ac7c9c3f6c80, type: 3}
-  introGroup: {fileID: 11400000, guid: 3e2bdf2839b3dd54983392ce83c3c7dc, type: 2}
+  introGroup: {fileID: 11400000, guid: 04bf9611862be494886904bcbbf8ce11, type: 2}
   branchGroups:
-  - {fileID: 11400000, guid: cc7cff83a05b97140bb55a43400ff666, type: 2}
-  - {fileID: 11400000, guid: 5edcdd1f29262fd408747d868bf6cc77, type: 2}
-  - {fileID: 11400000, guid: cbaa34930d2dfd74a9f119324e535688, type: 2}
+  - {fileID: 11400000, guid: 205e04b5bd237c54098bafe4710a0bc5, type: 2}
+  - {fileID: 11400000, guid: 692f06e61bf5a38418c45eb3077c7500, type: 2}
+  - {fileID: 11400000, guid: ec05f09a1553f46439a5734e9db4549f, type: 2}
+  - {fileID: 11400000, guid: 3f7d22f2add3959488a42b606d7d5807, type: 2}
+  - {fileID: 11400000, guid: 7c3e839c940ad4041b03018c57a68ad3, type: 2}
+  - {fileID: 11400000, guid: b76b3acb069be5e46b8dc72f0dacebd5, type: 2}
+  - {fileID: 11400000, guid: b0eb0e732f2ad3e4889720c4cc7e156f, type: 2}

@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BarkleyLibrary.unity
     guid: bb920978e80f55943b24ca7b5de4d72d
+  - enabled: 1
+    path: Assets/Scenes_v2/BarkleyLibrary_v2.unity
+    guid: b067e27bbd483c64d8ebbf8d2a788b02
   m_configObjects: {}

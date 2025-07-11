@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   storyId: PictureBookThree
   bookImage: {fileID: 21300000, guid: 575ea2c0d47953d49b23ac7c9c3f6c80, type: 3}
-  introGroup: {fileID: 11400000, guid: 66342264044a54b42bae48f6405216fd, type: 2}
+  introGroup: {fileID: 11400000, guid: 7c6bcfcda387d444b8714e850e09a525, type: 2}
   branchGroups: []

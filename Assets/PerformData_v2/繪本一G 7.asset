@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 991e912cbe49b3c4d87c754a19672847, type: 3}
+  m_Name: "\u7E6A\u672C\u4E00G 7"
+  m_EditorClassIdentifier: 
+  text: "\u7260\u662F\u5DE8\u5634\u9CE5\uFF01\u662F\u71B1\u5E36\u96E8\u6797\u88E1\u6700\u6709\u660E\u661F\u81C9\u7684\u9CE5\uFF5E\u7260\u7684\u5634\u5DF4\u770B\u8D77\u4F86\u5F88\u91CD\uFF0C\u5176\u5BE6\u5F88\u8F15\uFF0C\u98DB\u8D77\u4F86\u8D85\u9748\u6D3B\uFF01\u800C\u4E14\u7260\u6700\u53B2\u5BB3\u7684\u672C\u9818\uFF0C\u5C31\u662F\u7528\u5634\u5DF4\u4F86\u593E\u6C34\u679C\u5403\uFF0C\u8D85\u7D1A\u6E96\uFF01"
+  audioClip: {fileID: 8300000, guid: 7aa2d19e4f3066d4e98112f37f4bdc48, type: 3}
