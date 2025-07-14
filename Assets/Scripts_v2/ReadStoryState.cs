@@ -7,6 +7,7 @@ public class ReadStoryState : ICatState
     private CatStateMachine fsm;
     //private Coroutine readStoryRoutine;
     private int currentBookIndex;
+    private float delay = 2f;
     public int CurrentBookIndex => currentBookIndex;
 
     public ReadStoryState(int bookIndex)
@@ -20,13 +21,21 @@ public class ReadStoryState : ICatState
         // 顯示圖片
         var story = fsm.Presentation.BranchingStorys[currentBookIndex];
         fsm.Presentation.BookImage.Show(story.bookImage);
-
+        //Debug.Log("Hide image after 2 sec");
+        fsm.RunCoroutine(HideBookAfterDelay());
+        Debug.Log("Hide image after 2 sec");
         //readStoryRoutine = fsm.RunCoroutine(PlayBranchingStory());
 
         fsm.SetStateMainRoutine(PlayBranchingStory());
         fsm.RunStateMainCoroutine();
     }
 
+    private IEnumerator HideBookAfterDelay()
+    {
+        yield return new WaitForSeconds(delay);
+        fsm.Presentation.BookImage.Hide();
+        Debug.Log("Hide image after 2 sec");
+    }
     public void HandleEvent(CatEvent catEvent)
     {
         if (catEvent == CatEvent.UserLeft)
@@ -75,10 +84,8 @@ public class ReadStoryState : ICatState
         // 故事播放完 → 切換狀態
         fsm.switchToSayByeState();
     }
-
-
-    private IEnumerator PlayGroup(PerformDataGroup group)
-    {
-        yield return fsm.RunCoroutine(fsm.Presentation.PlayPerformGroup(group));
-    }
+    //private IEnumerator PlayGroup(PerformDataGroup group)
+    //{
+    //    yield return fsm.RunCoroutine(fsm.Presentation.PlayPerformGroup(group));
+    //}
 }
