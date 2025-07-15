@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "D:\\UnityProject\\BarkleyLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityproject\\barkleylibrary\\assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityproject\\barkleylibrary\\assets\\scripts_v2\\websocketeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityproject\\barkleylibrary\\assets\\scripts_v2\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\catpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityproject\\barkleylibrary\\assets\\scripts_v2\\catstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\catstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityproject\\barkleylibrary\\assets\\scripts_v2\\asktopickbookstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\readstorystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\asktopickbookstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\asktopickbookstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\imagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +42,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "WebSocketClientForBarkleyLibrary.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "ToolTip": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T08:55:07.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatPresentationController.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\CatPresentationController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\CatPresentationController.cs",
+              "ToolTip": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\CatPresentationController.cs",
+              "RelativeToolTip": "Assets\\Scripts_v2\\CatPresentationController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:10:57.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebSocketEventHandler.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketEventHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketEventHandler.cs",
+              "ToolTip": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketEventHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketEventHandler.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswGQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T01:58:54.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SayByeState.cs",
+              "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\SayByeState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts_v2\\SayByeState.cs",
+              "ToolTip": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\SayByeState.cs",
+              "RelativeToolTip": "Assets\\Scripts_v2\\SayByeState.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T09:28:35.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AskToPickBookState.cs",
               "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\AskToPickBookState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\AskToPickBookState.cs",
@@ -38,12 +104,11 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\AskToPickBookState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:29:24.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T09:29:24.36Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ReadStoryState.cs",
               "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\ReadStoryState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\ReadStoryState.cs",
@@ -51,25 +116,23 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\ReadStoryState.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAuwBgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:02:42.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T09:02:42.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "CatStateMachine.cs",
               "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\CatStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\CatStateMachine.cs",
               "ToolTip": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\CatStateMachine.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\CatStateMachine.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAADwvzwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:01:42.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T09:01:42.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ImageController.cs",
               "DocumentMoniker": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\ImageController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\ImageController.cs",
@@ -77,8 +140,7 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\ImageController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:01:38.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T09:01:38.419Z"
             }
           ]
         }

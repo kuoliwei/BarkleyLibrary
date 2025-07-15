@@ -45,6 +45,7 @@ public class SayByeState : ICatState
         Debug.Log("SayByeState finish");
         // 若日後要 reset，可在這裡加 delay + return to GreetingState
         yield return new WaitForSeconds(3f);
+        
         fsm.switchToGreetingState();
     }
 }

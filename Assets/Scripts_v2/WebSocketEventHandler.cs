@@ -24,6 +24,11 @@ public class WebSocketEventHandler : MonoBehaviour
     {
         jsonText.text = $"book:{bookAndPersonData.book}, person:{bookAndPersonData.person}";
 
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            jsonText.gameObject.SetActive(!jsonText.gameObject.activeSelf);
+        }
+
         TriggerState();
     }
     void TriggerState()
@@ -49,8 +54,8 @@ public class WebSocketEventHandler : MonoBehaviour
         {
             if (bookAndPersonData.person != currentBookAndPersonData.person)
             {
-                Debug.Log($"{bookAndPersonData.person},{currentBookAndPersonData.person}");
-                Debug.Log($"{bookAndPersonData.book},{currentBookAndPersonData.book}");
+                //Debug.Log($"{bookAndPersonData.person},{currentBookAndPersonData.person}");
+                //Debug.Log($"{bookAndPersonData.book},{currentBookAndPersonData.book}");
                 if (catStateMachine.CurrentCatState != CatState.AskToPickBookState)
                 {
                     //Debug.Log(catStateMachine.CurrentCatState);
@@ -62,8 +67,8 @@ public class WebSocketEventHandler : MonoBehaviour
             }
             else if(bookAndPersonData.book != currentBookAndPersonData.book)
             {
-                Debug.Log($"{bookAndPersonData.person},{currentBookAndPersonData.person}");
-                Debug.Log($"{bookAndPersonData.book},{currentBookAndPersonData.book}");
+                //Debug.Log($"{bookAndPersonData.person},{currentBookAndPersonData.person}");
+                //Debug.Log($"{bookAndPersonData.book},{currentBookAndPersonData.book}");
                 // 嘗試解析 book 為整數
                 if (!int.TryParse(bookAndPersonData.book, out int result) || result < 0 || result > 2)
                 {
@@ -84,6 +89,17 @@ public class WebSocketEventHandler : MonoBehaviour
                     {
                         catStateMachine.switchToReadStoryState(result);
                     }
+                }
+                currentBookAndPersonData = bookAndPersonData;
+                return;
+            }
+            else
+            {
+                if (catStateMachine.CurrentCatState == CatState.GreetingState)
+                {
+                    //Debug.Log(catStateMachine.CurrentCatState);
+                    //Debug.Log("與民眾道別後民眾還留在位子上，跳過打招呼，直接重新介紹書本");
+                    catStateMachine.switchToAskToPickBookState();
                 }
                 currentBookAndPersonData = bookAndPersonData;
                 return;

@@ -171,7 +171,7 @@ MonoBehaviour:
   greetingGroup: {fileID: 11400000, guid: 318c050fc2677684a8e88ad00932cb55, type: 2}
   askToPickBookGroup: {fileID: 11400000, guid: c04e20111dbc4b54db4b9fbdbd2acddf, type: 2}
   branchingStorys:
-  - {fileID: 11400000, guid: 8b9c65fdfb7f55647bf2326c06c790dc, type: 2}
+  - {fileID: 11400000, guid: 4a374c1251565394c9834352b562b741, type: 2}
   - {fileID: 11400000, guid: 3608f469c73327a47a2775668680131a, type: 2}
   - {fileID: 11400000, guid: 30ca6a4d8979a5c4681008d49f4ecfa3, type: 2}
   sayByeGroup: {fileID: 11400000, guid: c7b79ff889a751d459629d860b495c1b, type: 2}
@@ -726,7 +726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &723277343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1519,7 +1519,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
