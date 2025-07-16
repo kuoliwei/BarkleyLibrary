@@ -11,11 +11,11 @@
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\catpresentationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityproject\\barkleylibrary\\assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\saybyestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|d:\\unityproject\\barkleylibrary\\assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|D:\\UnityProject\\BarkleyLibrary\\assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A4D8DCE-9E0E-B92C-F3D9-6ADE97AD4C04}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts_v2\\websocketclientforbarkleylibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,8 +54,7 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketClientForBarkleyLibrary.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T08:55:07.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T08:55:07.072Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\CatPresentationController.cs",
               "ToolTip": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\CatPresentationController.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\CatPresentationController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T05:10:57.511Z",
               "EditorCaption": ""
@@ -78,7 +77,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts_v2\\WebSocketEventHandler.cs",
               "ToolTip": "D:\\UnityProject\\BarkleyLibrary\\Assets\\Scripts_v2\\WebSocketEventHandler.cs",
               "RelativeToolTip": "Assets\\Scripts_v2\\WebSocketEventHandler.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAswGQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswGQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-15T01:58:54.798Z",
               "EditorCaption": ""
@@ -93,8 +92,7 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\SayByeState.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwCEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-15T09:28:35.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-15T09:28:35.075Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\AskToPickBookState.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:29:24.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T09:29:24.36Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\ReadStoryState.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAuwBgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:02:42.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T09:02:42.501Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "Assets\\Scripts_v2\\CatStateMachine.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:01:42.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-11T09:01:42.634Z"
             },
             {
               "$type": "Document",

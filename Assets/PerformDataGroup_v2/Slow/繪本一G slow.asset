@@ -13,4 +13,16 @@ MonoBehaviour:
   m_Name: "\u7E6A\u672C\u4E00G slow"
   m_EditorClassIdentifier: 
   groupId: PictureBookOneG
-  lines: []
+  lines:
+  - {fileID: 11400000, guid: b2421bea565fd364daf99260f668c57c, type: 2}
+  - {fileID: 11400000, guid: c95f510bb2449ed43beeab6e683ca079, type: 2}
+  - {fileID: 11400000, guid: 1993baf2c1b11844ca1b2f8e30765137, type: 2}
+  - {fileID: 11400000, guid: 767a7bdf58583ce4a8844fc9a7d2da41, type: 2}
+  - {fileID: 11400000, guid: d002c6da8ca1b264b97b384996f9b3a4, type: 2}
+  - {fileID: 11400000, guid: 36f1cc4275724cf4eabdfe9544907ca2, type: 2}
+  - {fileID: 11400000, guid: 1495eab0d3179534bbe650ccbfa33d21, type: 2}
+  - {fileID: 11400000, guid: 4808a3f7a43576c47b07993ea7dd169b, type: 2}
+  - {fileID: 11400000, guid: b8243ca655edde9488d6f8fc219688d0, type: 2}
+  - {fileID: 11400000, guid: 05c99af0843787643940df1dbf700b7a, type: 2}
+  - {fileID: 11400000, guid: 14694c98e1975604e94ecbc57ee4fde1, type: 2}
+  - {fileID: 11400000, guid: 1c0ef48edb37b9a459861c6243e5cff6, type: 2}
