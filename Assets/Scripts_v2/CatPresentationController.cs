@@ -47,6 +47,10 @@ public class CatPresentationController : MonoBehaviour
 
             float duration = line.audioClip != null ? line.audioClip.length : 1f;
             yield return new WaitForSeconds(duration);
+            if (line == group.lines[0] && bookImageController.Image.IsActive())
+            {
+                bookImageController.Hide();
+            }
 
             Text.Clear();
         }

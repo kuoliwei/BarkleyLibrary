@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class ImageController : MonoBehaviour
 {
     [SerializeField] private Image image;
+    public Image Image => image;
 
     /// <summary>
     /// 顯示圖片並設定 Sprite

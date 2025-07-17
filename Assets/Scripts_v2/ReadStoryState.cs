@@ -22,7 +22,7 @@ public class ReadStoryState : ICatState
         var story = fsm.Presentation.BranchingStorys[currentBookIndex];
         fsm.Presentation.BookImage.Show(story.bookImage);
         //Debug.Log("Hide image after 2 sec");
-        fsm.RunCoroutine(HideBookAfterDelay());
+        //fsm.RunCoroutine(HideBookAfterDelay());
         Debug.Log("Hide image after 2 sec");
         //readStoryRoutine = fsm.RunCoroutine(PlayBranchingStory());
 
