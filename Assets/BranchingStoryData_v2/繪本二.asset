@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: "\u7E6A\u672C\u4E8C"
   m_EditorClassIdentifier: 
   storyId: PictureBookTwo
-  bookImage: {fileID: 21300000, guid: 4c3585e253bc0774296d1d3ade107fbe, type: 3}
+  bookImage: {fileID: 21300000, guid: ba2e5580c0f2baf45908d3b511efb4c4, type: 3}
   introGroup: {fileID: 11400000, guid: 7acd04cb85a0e1842980d10c76768802, type: 2}
   branchGroups: []

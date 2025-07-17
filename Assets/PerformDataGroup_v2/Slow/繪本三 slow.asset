@@ -15,6 +15,7 @@ MonoBehaviour:
   groupId: PictureBookThree
   lines:
   - {fileID: 11400000, guid: d7ca358b7ee71f54cb078a6eea3efc61, type: 2}
+  - {fileID: 11400000, guid: a230ffaecafcc2545ab4e10791b90ae5, type: 2}
   - {fileID: 11400000, guid: a9d5963729516bf48bceb08160c576bf, type: 2}
   - {fileID: 11400000, guid: b1ac78760955fc14bb5e532dad2cb57b, type: 2}
   - {fileID: 11400000, guid: 52bf9415701d8d44c83764475f6074e0, type: 2}

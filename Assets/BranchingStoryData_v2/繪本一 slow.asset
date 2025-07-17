@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u7E6A\u672C\u4E00 slow"
   m_EditorClassIdentifier: 
   storyId: PictureBookOne
-  bookImage: {fileID: 21300000, guid: 575ea2c0d47953d49b23ac7c9c3f6c80, type: 3}
+  bookImage: {fileID: 21300000, guid: 74ca7212ce6db4340b2fc1bde1d4bf3c, type: 3}
   introGroup: {fileID: 11400000, guid: 338586d4178230e4aa39e1b2d956b452, type: 2}
   branchGroups:
   - {fileID: 11400000, guid: d339e29d88caf164b8d66d031c587a02, type: 2}
