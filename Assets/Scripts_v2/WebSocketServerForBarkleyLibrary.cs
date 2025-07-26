@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using System.Threading;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,6 +14,8 @@ public class WebSocketServerForBarkleyLibrary : MonoBehaviour
     [SerializeField] string path;
     private WebSocketServer wss;
 
+    [SerializeField] Text logText;
+    string logString;
     void Awake()
     {
         // create WebSocket Server, Listen on port 7777
@@ -21,6 +24,16 @@ public class WebSocketServerForBarkleyLibrary : MonoBehaviour
         wss.Start();
         Debug.Log($"WebSocket server started on ws://localhost:{port}/{path}");
         StartCoroutine(ServerStartNote());
+
+        ChatForBarkleyLibrary.OnEvent += ShowLog;
+    }
+    private void Update()
+    {
+        logText.text = logString;
+        if (Input.GetKeyUp(KeyCode.Tab))
+        {
+            logText.gameObject.SetActive(!logText.gameObject.activeSelf);
+        }
     }
 
     void OnApplicationQuit()
@@ -37,6 +50,10 @@ public class WebSocketServerForBarkleyLibrary : MonoBehaviour
         TextHandler.TH.Enqueue(() => TextHandler.TH.ShowTextOnUI("WebSocket server started on ws://localhost:7777/Chat", "ffff00"));
         TextHandler.TH.Enqueue(() => TextHandler.TH.ShowTextOnUI("WebSocket server listening...", "ffff00"));
     }
+    void ShowLog(string log)
+    {
+        logString = log;
+    }
 }
 public class ChatForBarkleyLibrary : WebSocketBehavior
 {
@@ -44,10 +61,11 @@ public class ChatForBarkleyLibrary : WebSocketBehavior
     private static Dictionary<string, (string address, int port)> clientInfo = new Dictionary<string, (string address, int port)>();
 
     public static event Action<string> OnWebSocketMessageReceived;
-
+    public static event Action<string> OnEvent;
     protected override void OnOpen()
     {
-        ////Debug.Log("Client connected");
+        Debug.Log("Client connected");
+        OnEvent?.Invoke("Client connected");
         var clientEndpoint = Context.UserEndPoint;
         string clientId = ID;
         clientInfo[clientId] = (clientEndpoint.Address.ToString(), clientEndpoint.Port);
@@ -60,6 +78,7 @@ public class ChatForBarkleyLibrary : WebSocketBehavior
     {
         TextHandler.TH.Enqueue(() => TextHandler.TH.ShowTextOnUI(e.Data, "00ff00"));
         //Debug.Log($"Received message: {e.Data}");
+        OnEvent?.Invoke("Received message");
         if (e.Data == "pong")
         {
             //Debug.Log("Received pong from client");
@@ -91,6 +110,7 @@ public class ChatForBarkleyLibrary : WebSocketBehavior
             //Debug.Log($"Connection closed: {e.Reason}");
             // var clientEndpoint = Context.UserEndPoint;
             TextHandler.TH.Enqueue(() => TextHandler.TH.ShowTextOnUI($"client disconnected from: {info.address}|Port[{info.port}]", "ff00ff"));
+            OnEvent?.Invoke($"client disconnected from: {info.address}|Port[{info.port}]");
             clientInfo.Remove(ID);
         }
         pingTimer?.Dispose();
@@ -99,6 +119,7 @@ public class ChatForBarkleyLibrary : WebSocketBehavior
     protected override void OnError(ErrorEventArgs e)
     {
         //Debug.LogError($"WebSocket error: {e.Message}");
+        OnEvent?.Invoke($"WebSocket error: {e.Message}");
         //Debug.LogError($"Exception: {e.Exception}");
         pingTimer?.Dispose();
     }
